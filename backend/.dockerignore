@@ -1,0 +1,16 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env
+venv
+.venv
+.git
+.idea
+.vscode
+*.db
+*.sqlite
+*.sqlite3
+*.log
+Dockerfile
