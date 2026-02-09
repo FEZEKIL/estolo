@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: estolo-backend
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DB_ENGINE
+        value: sqlite
+        scope: run
+      - key: PYTHON_VERSION
+        value: 3.11

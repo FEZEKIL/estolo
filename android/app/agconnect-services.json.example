@@ -1,0 +1,30 @@
+{
+  "agcgw": {
+    "url": "https://connect-drcn.hispace.dbankcloud.cn"
+  },
+  "client": {
+    "cp_id": "YOUR_CP_ID",
+    "product_id": "YOUR_PRODUCT_ID",
+    "client_id": "YOUR_CLIENT_ID",
+    "client_secret": "YOUR_CLIENT_SECRET",
+    "project_id": "YOUR_PROJECT_ID",
+    "app_id": "YOUR_APP_ID",
+    "api_key": "YOUR_API_KEY",
+    "package_name": "com.example.estolo"
+  },
+  "oauth_client": {
+    "client_id": "YOUR_CLIENT_ID",
+    "client_type": 1
+  },
+  "app_info": {
+    "app_id": "YOUR_APP_ID",
+    "package_name": "com.example.estolo"
+  },
+  "service": {
+    "analytics": {
+      "collector_url": "https://datacollector-drcn.dt.hicloud.com"
+    }
+  },
+  "region": "CN",
+  "configuration_version": "3.0"
+}

@@ -12,3 +12,12 @@ GeneratedPluginRegistrant.java
 key.properties
 **/*.keystore
 **/*.jks
+
+# DO NOT commit service configuration files with real credentials
+# These contain sensitive API keys and secrets
+google-services.json
+agconnect-services.json
+
+# Environment files
+.env
+.env.local
